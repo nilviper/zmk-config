@@ -1,6 +1,6 @@
 // This file was generated from a template. Edit it to match your keyboard.
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more instructions.
-#include <dt-bindings/zmk/outputs.h>
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
@@ -9,7 +9,6 @@
     // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
     keymap {
         compatible = "zmk,keymap";
-        &out OUT_USB;
         default_layer {
             bindings = <
                 &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H &kp I &kp J 
