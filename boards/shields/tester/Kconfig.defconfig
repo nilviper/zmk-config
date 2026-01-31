@@ -1,0 +1,6 @@
+if SHIELD_TESTER
+
+config ZMK_KEYBOARD_NAME
+    default "tester"
+
+endif # SHIELD_TESTER
