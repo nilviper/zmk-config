@@ -20,6 +20,7 @@
                                 &kp U &kp V &kp W &kp X &kp Y &kp Z 
             >;
         };
+    };
     &usbd {
 	status = "okay";
 	cdc_acm_uart: cdc_acm_uart {
@@ -27,5 +28,5 @@
 		label = "CDC_ACM_0";
 	};
 };
-    };
+    
 };
