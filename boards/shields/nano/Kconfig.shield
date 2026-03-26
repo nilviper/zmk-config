@@ -1,0 +1,5 @@
+config SHIELD_NANO_LEFT
+    def_bool $(shields_list_contains,nano_left)
+
+config SHIELD_NANO_RIGHT
+    def_bool $(shields_list_contains,nano_right)
