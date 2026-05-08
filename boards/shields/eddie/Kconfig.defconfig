@@ -1,0 +1,6 @@
+if SHIELD_EDDIE
+
+config ZMK_KEYBOARD_NAME
+    default "eddie"
+
+endif # SHIELD_EDDIE

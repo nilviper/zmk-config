@@ -1,0 +1,2 @@
+config SHIELD_EDDIE
+    def_bool $(shields_list_contains,eddie)
