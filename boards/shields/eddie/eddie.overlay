@@ -27,7 +27,7 @@
         col-gpios
             = <&xiao_d 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            # , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
         row-gpios
@@ -42,12 +42,12 @@
         // See https://zmk.dev/docs/development/hardware-integration/new-shield#matrix-transform
         // for how to configure this
         compatible = "zmk,matrix-transform";
-        columns = <3>;
+        columns = <2>;
         rows = <2>;
 
         map = <
-            RC(0, 0) RC(0, 1) RC(0, 2)
-            RC(1, 0) RC(1, 1) RC(1, 2)
+            RC(0, 0) RC(0, 1) 
+            RC(1, 0) RC(1, 1) 
         >;
     };
 };
