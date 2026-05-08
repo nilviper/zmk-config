@@ -21,3 +21,5 @@
 include:
   - board: sparkfun_pro_micro_rp2040
     shield: eddie2
+  - board: sparkfun_pro_micro_rp2040
+    shield: tester
