@@ -36,14 +36,7 @@
             ;
     };
 
-    left_encoder: encoder_left {
-        compatible = "alps,ec11";
-        label = "LEFT_ENCODER";
-        a-gpios = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <4>; // Use 20 for older/different methods, 4 is common for 20 pulse per 360deg with detents
-        status = "okay";
-    };
+    
 
     default_transform: default_transform {
         // See https://zmk.dev/docs/development/hardware-integration/new-shield#matrix-transform
