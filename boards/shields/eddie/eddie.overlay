@@ -27,7 +27,7 @@
         col-gpios
             = <&xiao_d 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            # , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            // , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
         row-gpios
