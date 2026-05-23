@@ -1,0 +1,6 @@
+if SHIELD_ARGB
+
+config ZMK_KEYBOARD_NAME
+    default "argb"
+
+endif # SHIELD_ARGB
