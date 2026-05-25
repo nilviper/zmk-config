@@ -15,7 +15,7 @@
                 &kp LEFT    &kp RIGHT   &kp C_MUTE
                 &kp LC(C)   &kp LC(V)  &kp LC(X)
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
