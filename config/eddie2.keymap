@@ -12,8 +12,8 @@
 
         default_layer {
             bindings = <
-                &kp LEFT    &kp RIGHT   &kp K_MUTE
-                &kp K_CUT   &kp K_COPY  &kp K_PASTE
+                &kp LEFT    &kp RIGHT   &kp C_MUTE
+                &kp LC(C)   &kp LC(P)  &kp LC(X)
             >;
         };
     };
