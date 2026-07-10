@@ -1,0 +1,16 @@
+if SHIELD_NANO1_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "nano1"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_NANO1_RIGHT
+
+if SHIELD_NANO1_LEFT || SHIELD_NANO1_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_NANO1_LEFT || SHIELD_NANO1_RIGHT
