@@ -23,3 +23,16 @@ include:
     shield: nano1_left
   - board: nice_nano_v2
     shield: nano1_right
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware/zmk.git
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
+
+
