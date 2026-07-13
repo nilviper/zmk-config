@@ -9,7 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: release-please--branches--main
+      revision: led-indicators
       import: app/west.yml
   self:
     path: config
