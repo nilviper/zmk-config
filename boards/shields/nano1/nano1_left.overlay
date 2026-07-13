@@ -11,6 +11,7 @@
             gpios = <&gpio0 20 GPIO_ACTIVE_HIGH>;
         };
     };
+
     &kscan {
         // Replace these comments with the GPIO pins in the matrix for the left side.
         // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
@@ -30,4 +31,4 @@
             , <&gpio1 1 GPIO_ACTIVE_HIGH>
             ;
     };
-}
+};
