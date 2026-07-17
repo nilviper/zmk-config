@@ -3,7 +3,7 @@
 // instructions.
 
 #include "nano1.dtsi"
-#include <dt-bindings/zmk/hid_indicators.h>
+
 / {
     leds {
         compatible = "gpio-leds";
