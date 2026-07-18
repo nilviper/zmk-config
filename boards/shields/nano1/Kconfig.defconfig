@@ -1,4 +1,4 @@
-if SHIELD_NANO1_RIGHT
+if SHIELD_NANO1_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "nano1"
@@ -6,7 +6,7 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif # SHIELD_NANO1_RIGHT
+endif # SHIELD_NANO1_LEFT
 
 if SHIELD_NANO1_LEFT || SHIELD_NANO1_RIGHT
 
