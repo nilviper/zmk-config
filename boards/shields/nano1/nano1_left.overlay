@@ -41,7 +41,7 @@ chosen {
         // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
         
     };
-};    
+   
 
 leds {
         compatible = "gpio-leds";
@@ -57,3 +57,4 @@ leds {
             leds = <&caps_lock_led>;
         };
     };
+};
