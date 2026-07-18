@@ -4,8 +4,6 @@
 
 
 #include "nano1.dtsi"
-#include "nano1-layouts.dtsi"
-#include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/zmk/hid_indicators.h>
 
 / {
@@ -13,7 +11,7 @@ chosen {
         zmk,physical-layout = &default_layout;
     };
     
-    kscan0: kscan {
+    kscan0: kscan0 {
         // If the hardware does not use a switch matrix, change this to the
         // appropriate driver and update the properties below to match.
         // See https://zmk.dev/docs/config/kscan for supported key scan drivers.
@@ -43,7 +41,7 @@ chosen {
         // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
         
     };
-    
+};    
 
 leds {
         compatible = "gpio-leds";
@@ -59,4 +57,3 @@ leds {
             leds = <&caps_lock_led>;
         };
     };
-};
