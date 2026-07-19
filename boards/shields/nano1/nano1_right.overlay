@@ -4,7 +4,7 @@
 
 
 #include "nano1.dtsi"
-/{
+
 &kscan0{
         col-gpios
         = <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -25,7 +25,7 @@
         // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
         
     };
-
+/{
 &default_transform {
     // Set this to the number of columns on the left side.
     col-offset = <6>;
