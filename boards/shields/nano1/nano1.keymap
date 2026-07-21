@@ -15,7 +15,7 @@
             bindings = <
                 &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6       &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp BSPC &kp C_MUTE // 15 
                 &kp TAB       &kp Q &kp W &kp E &kp R &kp T             &kp Y  &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT &kp NUBS &kp DEL // 15
-                &kp CAPS      &kp A &kp S &kp D &kp F &kp G             &kp H  &kp J &kp K &kp L &kp SEMI &kp SQT &kp ENT &kp GRAVE // 14
+                // &kp CAPS      &kp A &kp S &kp D &kp F &kp G             &kp H  &kp J &kp K &kp L &kp SEMI &kp SQT &kp ENT &kp GRAVE // 14
                 // &kp LSHIFT    &kp Z &kp X &kp C &kp V &kp B             &kp N  &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHIFT &kp UP &kp HOME // 14
                 // &kp LCTRL  &kp LGUI &kp LALT  &kp SPACE &kp SPACE       &kp SPACE &kp SPACE &kp mo 2 &kp RALT &kp RCTRL &kp LEFT &kp DOWN &kp RIGHT   13
                 >;
