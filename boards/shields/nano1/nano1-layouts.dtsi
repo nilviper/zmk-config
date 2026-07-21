@@ -7,7 +7,7 @@
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
-        transform = <&matrix_transform>;
+        transform = <&default_transform>;
         kscan = <&kscan0>;
 
         // Edit this to define the positions and sizes of the keys, or remove it
