@@ -27,7 +27,7 @@
                 &trans &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans &trans &trans &trans 
                 &trans &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans &trans &trans 
                 &trans &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans &trans &trans 
-                &kp LGUI &kp LALT &kp LCTRL &trans &trans               &trans &trans &trans &trans &RGUI &trans &trans &trans 
+                // &kp LGUI &kp LALT &kp LCTRL &trans &trans               &trans &trans &trans &trans &RGUI &trans &trans &trans 
             >;
         };
         FUNCTION {
