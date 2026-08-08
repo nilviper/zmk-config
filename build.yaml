@@ -21,4 +21,4 @@
 include:
   - board: nice_nano
     shield: steno
-    cmake-args: --force
+    cmake-args: -s zmk-plover/app
