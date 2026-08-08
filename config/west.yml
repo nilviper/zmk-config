@@ -2,8 +2,8 @@ manifest:
   defaults:
     revision: v0.3
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    #- name: zmkfirmware
+    #  url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: rgbled
@@ -11,13 +11,13 @@ manifest:
     - name: plover
       url-base: https://github.com/dcpedit/zmk-plover
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-    - name: zmk-rgbled-widget  # <-- new entry
-      url: https://github.com/caksoylar/zmk-rgbled-widget
-      revision: main
+    #- name: zmk
+    ##  remote: zmkfirmware
+    #  revision: main
+    #  import: app/west.yml
+    #- name: zmk-rgbled-widget  # <-- new entry
+    #  url: https://github.com/caksoylar/zmk-rgbled-widget
+    #  revision: main
     - name: plover-hid-hog-attempt
       url: https://github.com/dcpedit/zmk-plover
       revision: plover-hid-hog-attempt
