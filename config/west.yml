@@ -6,8 +6,8 @@ manifest:
     #  url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: rgbled
-      url-base: https://github.com/caksoylar/zmk-rgbled-widget
+    #- name: rgbled
+    #  url-base: https://github.com/caksoylar/zmk-rgbled-widget
     - name: plover
       url-base: https://github.com/dcpedit/zmk-plover
   projects:
@@ -18,7 +18,7 @@ manifest:
     #- name: zmk-rgbled-widget  # <-- new entry
     #  url: https://github.com/caksoylar/zmk-rgbled-widget
     #  revision: main
-    - name: plover-hid-hog-attempt
+    - name: zmk
       url: https://github.com/dcpedit/zmk-plover
       revision: plover-hid-hog-attempt
   self:
