@@ -8,6 +8,8 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: rgbled
       url-base: https://github.com/caksoylar/zmk-rgbled-widget
+    - name: plover
+      url-base: https://github.com/dcpedit/zmk-plover/tree/plover-hid-hog-attempt
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -16,5 +18,8 @@ manifest:
     - name: zmk-rgbled-widget  # <-- new entry
       url: https://github.com/caksoylar/zmk-rgbled-widget
       revision: main
+    - name: plover-hid-hog-attempt
+      url: https://github.com/dcpedit/zmk-plover/tree/plover-hid-hog-attempt
+      revision: plover-hid-hog-attempt
   self:
     path: config

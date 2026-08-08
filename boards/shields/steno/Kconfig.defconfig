@@ -1,0 +1,6 @@
+if SHIELD_STENO
+
+config ZMK_KEYBOARD_NAME
+    default "steno"
+
+endif # SHIELD_STENO
