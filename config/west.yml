@@ -11,16 +11,17 @@ manifest:
     - name: plover
       url-base: https://github.com/dcpedit/zmk-plover
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
+    #- name: zmk
+    ##  remote: zmkfirmware
+   #   revision: main
+    #  import: app/west.yml
     #- name: zmk-rgbled-widget  # <-- new entry
     #  url: https://github.com/caksoylar/zmk-rgbled-widget
     #  revision: main
-    - name: plover
-      url: https://github.com/dcpedit/zmk-plover
+    - name: zmk
+      remote: plover
+    #  url: https://github.com/dcpedit/zmk-plover
       revision: plover-hid-hog-attempt
-      import: app/include/
+      import: app/west.yml
   self:
     path: config
