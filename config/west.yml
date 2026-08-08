@@ -9,7 +9,7 @@ manifest:
     - name: rgbled
       url-base: https://github.com/caksoylar/zmk-rgbled-widget
     - name: plover
-      url-base: https://github.com/dcpedit/zmk-plover/tree/plover-hid-hog-attempt
+      url-base: https://github.com/dcpedit/zmk-plover
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,7 +19,7 @@ manifest:
       url: https://github.com/caksoylar/zmk-rgbled-widget
       revision: main
     - name: plover-hid-hog-attempt
-      url: https://github.com/dcpedit/zmk-plover/tree/plover-hid-hog-attempt
+      url: https://github.com/dcpedit/zmk-plover
       revision: plover-hid-hog-attempt
   self:
     path: config
