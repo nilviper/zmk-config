@@ -2,8 +2,6 @@ manifest:
   defaults:
     revision: v0.3
   remotes:
-    - name: zephyrproject-rtos
-      url-base: https://github.com/zephyrproject-rtos
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
@@ -13,42 +11,15 @@ manifest:
     - name: plover
       url-base: https://github.com/dcpedit/zmk-plover
   projects:
-    - name: zephyr
+    - name: zmk
       remote: zmkfirmware
-      revision: v3.0.0+zmk-fixes
-      clone-depth: 1
-      import:
-        # TODO: Rename once upstream offers option like `exclude` or `denylist`
-        name-blacklist:
-          - ci-tools
-          - hal_altera
-          - hal_cypress
-          - hal_infineon
-          - hal_microchip
-          - hal_nxp
-          - hal_openisa
-          - hal_silabs
-          - hal_xtensa
-          - hal_st
-          - hal_ti
-          - loramac-node
-          - mcuboot
-          - mcumgr
-          - net-tools
-          - openthread
-          - edtt
-          - trusted-firmware-m
-          - sof
-   # - name: zmk
-  ##    remote: zmkfirmware
-   ##   revision: main
-   ###   import: app/west.yml
-   # - name: zmk-rgbled-widget  # <-- new entry
-   #   url: https://github.com/caksoylar/zmk-rgbled-widget
-   #   revision: main
+      revision: main
+      import: app/west.yml
+    - name: zmk-rgbled-widget  # <-- new entry
+      url: https://github.com/caksoylar/zmk-rgbled-widget
+      revision: main
     - name: plover-hid-hog-attempt
       url: https://github.com/dcpedit/zmk-plover
       revision: plover-hid-hog-attempt
   self:
     path: config
-    west-commands: scripts/west-commands.yml
