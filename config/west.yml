@@ -18,7 +18,7 @@ manifest:
     #- name: zmk-rgbled-widget  # <-- new entry
     #  url: https://github.com/caksoylar/zmk-rgbled-widget
     #  revision: main
-    - name: plover
+    - name: zmk-plover
       remote: dcpedit
       revision: plover-hid-hog-attempt
       import: app/west.yml
