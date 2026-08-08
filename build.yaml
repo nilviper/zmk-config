@@ -21,3 +21,4 @@
 include:
   - board: nice_nano
     shield: steno
+    cmake-args: --force
