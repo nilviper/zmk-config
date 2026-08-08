@@ -21,6 +21,6 @@ manifest:
     - name: plover
       url: https://github.com/dcpedit/zmk-plover
       revision: plover-hid-hog-attempt
-      import: app/include
+      import: app/include/dt-bindings/zmk/keys.h
   self:
     path: config
